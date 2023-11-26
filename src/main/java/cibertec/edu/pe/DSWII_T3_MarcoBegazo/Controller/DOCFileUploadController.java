@@ -15,7 +15,7 @@ import java.io.IOException;
 @RequestMapping("/filesdoc")
 public class DOCFileUploadController {
 
-    private static final String UPLOAD_DIRECTORY = "./C:\\Users\\Marco\\Desktop";
+    private static final String UPLOAD_DIRECTORY = "./Documentos";//Aqui puede poner la carpeta que quiera, se guardara ahi
 
     @PostMapping
     @PreAuthorize("hasRole('Administrador')")

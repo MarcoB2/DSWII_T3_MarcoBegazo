@@ -15,7 +15,7 @@ import java.io.IOException;
 @RequestMapping("/filespdf")
 public class PDFFileUploadController {
 
-    private static final String UPLOAD_DIRECTORY = "./Documentos"; // Directorio de destino para guardar archivos
+    private static final String UPLOAD_DIRECTORY = "./Documentos"; //Aqui puede poner la carpeta que quiera, se guardara ahi
 
     @PostMapping
     @PreAuthorize("hasRole('Supervisor')")
